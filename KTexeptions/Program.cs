@@ -82,7 +82,7 @@ class Program
             }
             catch (AgeException)
             {
-                Console.WriteLine("Регистрация не возможна. Не пройдены возрастные ограничения. (age <= 14)");
+                Console.WriteLine("Регистрация не возможна. Не пройдены возрастные ограничения.. (age <= 14)");
                 InsertRecord();
             }
 
